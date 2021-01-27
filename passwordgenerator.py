@@ -10,7 +10,7 @@ while True:
              'v', 'x', 'y', 'z', '.', ':', '#', '/', ';', '$', '|', ',']
     pwstring = ""
     pw = []
-    for i in range(20):
+    for i in range(random.randint(20, 40)):
         capitalize = random.random()
         char = random.choice(chars)
         if capitalize > 0.5:
